@@ -25,7 +25,7 @@ Code is licensed under the Apache 2.0 license.
 - I had to add a link tag to the html files to hyperlink the external gutenberg stylesheet
 - I removed the original style tags in the original html files
 
-based on
+good page based on
 https://w3layouts.com/preview/?l=/creative-resume-personal-category-bootstrap-responsive-web-template/
 
 https://github.com/logos
