@@ -1,0 +1,155 @@
+
+body {
+    background: url("assets/colorful-background.jpg");
+}
+
+/*http://www.w3schools.com/css/css3_flexbox.asp*/
+/*https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+div.overview-flex {
+    height: auto;
+    width: 50%;
+    position: absolute;
+    display: -webkit-flex;
+    display: flex;
+    left: 20%;
+}
+
+div.about-me-flex {
+    border: dotted;
+    border-color: #0e20ff;
+    background-color: fuchsia;
+    height: inherit;
+    position: absolute;
+    left: 5%;
+    top: 100%;
+    bottom: 10%;
+    width: 80%;
+    display: -webkit-flex;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row-reverse wrap;
+}
+
+div.history-flex {
+    background-image: url("assets/space.jpg");
+    height: 150%;
+    position: absolute;
+    display: -webkit-flex;
+    display: flex;
+    list-style: none;
+    flex-flow: column;
+    top: 1%;
+    width: 30%;
+    right: 0%;
+    justify-content: flex-start;
+}
+
+.artifact {
+    height: inherit;
+    text-align: left;
+    width: 30%;
+    flex-grow: 1;
+    background-color: limegreen;
+    z-index: 2;
+
+}
+
+.info {
+    width: 10%;
+    text-align: left;
+    flex-grow: 1;
+}
+
+.job {
+    width: 50%;
+    text-align: center;
+    align-self: center;
+    flex-grow: 1;
+}
+
+.profile_photo {
+    text-align: center;
+    width: 30%;
+    height: 80%;
+    vertical-align: middle;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    background-color: #0e20ff;
+    z-index: 5;
+
+}
+
+img {
+    max-height: 250px;
+    border-radius: 25%;
+    right: 20%;
+    margin-top: 10%;
+}
+
+.primary {
+    color: white;
+    font-weight: bolder;
+}
+
+.secondary {
+    color: #ce05bd;
+    font-weight: bolder;
+}
+
+p {
+    font-size: x-large;
+}
+
+h5 {
+    font-size: x-large;
+}
+
+.title {
+    color: black;
+}
+
+.title-wide {
+    width: 100%;
+    color: black;
+}
+
+div.section2 {
+    width: 80%;
+    height: 400px;
+    display: -webkit-flex;
+    display: flex;
+    position: relative;
+}
+
+ul.dark {
+    color: black;
+    font-size: x-large;
+}
+
+ul.light {
+    color: #ce05bd;
+    font-size: x-large;
+}
+
+/* http://www.w3schools.com/cssref/pr_list-style-type.asp */
+li:before {
+    padding-right: 8px;
+}
+
+h1 {
+    text-align: left;
+
+}
+
+/*http://stackoverflow.com/questions/5302304/aligning-html-elements-to-the-middle-of-the-parent-without-javascript*/
+
+img.social {
+    height: 50px;
+    left: 10%;
+    top: 100%;
+    margin-right: 40px;
+    margin-top: 0%;
+
+}

@@ -1,0 +1,115 @@
+/*<style type = "text/css">*/
+
+BODY {
+    color: Black;
+    background: White;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-family: "Bodoni 72 Oldstyle", serif;
+    text-align: justify;
+    background-image: url(paper.jpg);
+}
+
+P {
+    font-family: "Bodoni 72 Oldstyle", sans-serif;
+    text-indent: 4%;
+    font-size: 125%;
+}
+
+H1, H2, H4, H5 {
+    font-family: "Bodoni 72 Oldstyle", sans-serif;
+    font-variant: small-caps;
+    text-align: center;
+
+}
+
+H3 {
+    font-family: "Bodoni 72 Oldstyle", sans-serif;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+
+img {
+    border-radius: 10px;
+    align-content: center;
+}
+
+hr {
+    width: 50%;
+    text-align: center;
+    color: black;
+}
+
+blockquote {
+    font-size: 97%;
+    font-style: italic;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+div.fig {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div.middle {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+}
+
+.figleft {
+    float: left;
+    margin-left: 0%;
+    margin-right: 1%;
+}
+
+.figright {
+    float: right;
+    margin-right: 0%;
+    margin-left: 1%;
+}
+
+pre {
+    font-style: italic;
+    font-size: 90%;
+    margin-left: 10%;
+}
+
+/* information regarding hyperlinks found on http://www.w3schools.com/css/css_link.asp on Feb 13, 2017*/
+a:link {
+    color: brown;
+}
+
+a:visited {
+    color: darkolivegreen;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: blue;
+}
+
+.toc {
+    margin-left: 10%;
+    margin-bottom: .75em;
+}
+
+.toc2 {
+    margin-left: 20%;
+}
+
+p.pfirst, p.noindent {
+    text-indent: 0
+}
+
+span.dropcap {
+    float: left;
+    margin: 0 0.1em 0 0;
+    line-height: .8
+}

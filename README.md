@@ -21,4 +21,15 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+**Part 1:**
+- I had to add a link tag to the html files to hyperlink the external gutenberg stylesheet
+- I removed the original style tags in the original html files
+
+based on
+https://w3layouts.com/preview/?l=/creative-resume-personal-category-bootstrap-responsive-web-template/
+
+https://github.com/logos
+https://brand.twitter.com/
+https://newevolutiondesigns.com/35-free-colorful-backgrounds
+http://www.freepik.com/free-vector/galaxy-vector-with-stars_716358.htm
 
