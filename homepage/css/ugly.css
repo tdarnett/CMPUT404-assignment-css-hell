@@ -3,8 +3,44 @@ body {
     background: url("assets/colorful-background.jpg");
 }
 
-/*http://www.w3schools.com/css/css3_flexbox.asp*/
-/*https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+.nav-bar-container {
+    background-color: #ff0200;
+    border: double;
+    border-color: white;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    max-height: 56px;
+    justify-content: center;
+}
+
+.nav-item {
+    width: 15%;
+    text-align: center;
+    align-self: center;
+}
+
+a {
+    font-weight: bold;
+    font-family: "Century Schoolbook", serif;
+}
+
+a:link, a:visited {
+    color: #05f33f;
+}
+
+a:hover, a:active {
+    color: #ca02ce;
+}
+
 div.overview-flex {
     height: auto;
     width: 50%;
@@ -18,7 +54,7 @@ div.about-me-flex {
     border: dotted;
     border-color: #0e20ff;
     background-color: fuchsia;
-    height: inherit;
+    height: 150%;
     position: absolute;
     left: 5%;
     top: 100%;
@@ -27,13 +63,13 @@ div.about-me-flex {
     display: -webkit-flex;
     list-style: none;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-flow: row-reverse wrap;
 }
 
 div.history-flex {
     background-image: url("assets/space.jpg");
-    height: 150%;
+    height: auto;
     position: absolute;
     display: -webkit-flex;
     display: flex;
@@ -49,6 +85,7 @@ div.history-flex {
     height: inherit;
     text-align: left;
     width: 30%;
+    padding-left: 5%;
     flex-grow: 1;
     background-color: limegreen;
     z-index: 2;
@@ -56,9 +93,11 @@ div.history-flex {
 }
 
 .info {
-    width: 10%;
+    width: 30%;
     text-align: left;
-    flex-grow: 1;
+    height: auto;
+    border: dashed;
+    border-color: #eff344;
 }
 
 .job {
@@ -133,7 +172,6 @@ ul.light {
     font-size: x-large;
 }
 
-/* http://www.w3schools.com/cssref/pr_list-style-type.asp */
 li:before {
     padding-right: 8px;
 }
@@ -143,13 +181,11 @@ h1 {
 
 }
 
-/*http://stackoverflow.com/questions/5302304/aligning-html-elements-to-the-middle-of-the-parent-without-javascript*/
-
 img.social {
     height: 50px;
     left: 10%;
     top: 100%;
     margin-right: 40px;
-    margin-top: 0%;
+    margin-top: 0;
 
 }

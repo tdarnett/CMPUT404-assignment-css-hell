@@ -1,5 +1,42 @@
 body {
-    font-family: "Tahoma", serif;
+    font-family: "Avenir Next", serif;
+}
+
+.nav-bar-container {
+    background-color: #252525;
+    height: 56px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    max-height: 56px;
+    justify-content: center;
+}
+
+.nav-item {
+    width: 15%;
+    text-align: center;
+    flex-basis: auto;
+    align-self: center;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:link, a:visited {
+    color: #F3EEED;
+}
+
+a:hover, a:active {
+    color: #CECECE;
 }
 
 div.section1 {
@@ -36,10 +73,9 @@ div.section3 {
     position: relative;
 }
 
-/*http://www.w3schools.com/css/css3_flexbox.asp*/
-/*https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+/*information about how to use flexbox is read from https://css-tricks.com/snippets/css/a-guide-to-flexbox/ written by Chris Coyier*/
 div.overview-flex {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.6); /* information regarding opacity found on https://www.w3schools.com/css/css_image_transparency.asp on Feb 15, 2017 Copyright by Refsnes Data*/
     height: 75%;
     width: 70%;
     position: absolute;
@@ -136,6 +172,11 @@ img {
     color: #CECECE;
 }
 
+p.secondary {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
 .title {
     color: black;
 }
@@ -157,7 +198,7 @@ ul.light {
     color: #CECECE;
 }
 
-/* http://www.w3schools.com/cssref/pr_list-style-type.asp */
+/* information regarding opacity found on http://www.w3schools.com/cssref/pr_list-style-type.asp on Feb 15, 2017 Copyright by Refsnes Data*/
 li:before {
     content: "⌲";
     padding-right: 8px;
@@ -166,8 +207,6 @@ li:before {
 h1 {
     text-align: center;
 }
-
-/*http://stackoverflow.com/questions/5302304/aligning-html-elements-to-the-middle-of-the-parent-without-javascript*/
 
 img.social {
     height: 30px;
